@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Adaptable</title>
+    <link href="colors.css" rel="stylesheet" type="text/css" />
+    <link href="base.css" rel="stylesheet" type="text/css" />
+    <link href="great.css" rel="stylesheet" type="text/css" media="screen and (min-width: 981px)" />
+    <link href="medium.css" rel="stylesheet" type="text/css" media="screen and (min-width: 481px) and (max-width: 980px)" /> 
+    <link href="mini.css" rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" />
+
+</head>
+<body>
+
+    <header>
+        <h1> Web Adaptable </h1>
+        <h2 class="display-great">Grande</h2>
+        <h2 class="display-medium">Mediano</h2>
+        <h2 class="display-mini">Mini</h2>
+    </header>
+
+    <div id="wrapper">
+
+        <nav id="main-nav">
+            <h2> Menú </h2>
+            <ul class="menu display-great display-medium" >
+                <li><a href="">Opción uno</a></li>
+                <li><a href="">Opción dos</a></li>
+                <li><a href="">Opción tres</a></li>
+                <li><a href="">Opción cuatro</a></li>
+                <li><a href="">Opción cinco</a></li>
+                <li><a href="">Opción seis</a></li>
+        
+            <select class="display-mini">
+                <option>Uno</option>
+                <option>Dos</option>
+                <option>Tres</option>
+                <option>Cuatro</option>
+                <option>Cinco</option>
+                <option>Seis</option>
+            </select>
+        </nav>
+        <section id="main-section">
+            <h2> El Contenido de la pagina </h2>
+
+            <article>
+                <h3><a href=""> Articulo 1</a></h3>
+                <p class="display-great display-medium"> Un lorem ipsum resumido...</p>
+            </article>
+
+            <article>
+                <h3><a href=""> Articulo 2</a></h3>
+                <p class="display-great display-medium"> Un lorem ipsum resumido...</p>
+            </article>
+
+            <article>
+                <h3><a href=""> Articulo 3</a></h3>
+                <p class="display-great display-medium"> Un lorem ipsum resumido...</p>
+            </article>
+        </section>
+        <footer>
+            <h2>Rodríguez Choez Jean Carlos </h2>
+            <h4>Séptimo Semestre</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem amet, dicta aut iste repudiandae 
+                asperiores alias odit itaque optio blanditiis culpa non cupiditate fuga sit maxime dignissimos, nihil quidem modi.</p>
+
+            <select class="display-mini">
+                <option>Uno</option>
+                <option>Dos</option>
+                <option>Tres</option>
+                <option>Cuatro</option>
+                <option>Cinco</option>
+                <option>Seis</option>
+            </select>
+        </footer>
+    </div>
+    
+</body>
+</html>
